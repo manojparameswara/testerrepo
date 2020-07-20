@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50319" started-at="2020-07-20T15:56:42 CDT" finished-at="2020-07-20T15:57:32 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50319" started-at="2020-07-20T15:56:42 CDT" finished-at="2020-07-20T15:57:32 CDT">
+      <class name="MyPack.TestClass">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String)[pri:0, instance:MyPack.TestClass@72b6cbcc]" name="initializeBrowser" is-config="true" duration-ms="5415" started-at="2020-07-20T15:56:42 CDT" finished-at="2020-07-20T15:56:47 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="LoginToSaleForceAndVerifyText()[pri:2, instance:MyPack.TestClass@72b6cbcc]" name="LoginToSaleForceAndVerifyText" duration-ms="43759" started-at="2020-07-20T15:56:47 CDT" finished-at="2020-07-20T15:57:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSaleForceAndVerifyText -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:MyPack.TestClass@72b6cbcc]" name="quitBrowser" is-config="true" duration-ms="1089" started-at="2020-07-20T15:57:31 CDT" finished-at="2020-07-20T15:57:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- MyPack.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
